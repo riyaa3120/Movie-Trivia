@@ -1,0 +1,60 @@
+body {
+    /* background: url('https://s3.scoopwhoop.com/anj2/5f1ff5bd18ac814f6722e96e/0715920b-c43e-417c-ab00-47f7cd3ee486.jpg') center center/cover no-repeat; */
+    background: url('https://uwpexponent.com/wp-content/uploads/2020/02/parasite-900x506.jpg') center center/cover no-repeat;
+}
+
+#nav{
+    background-color: rgba(255, 255, 255, 0.41);
+    color: black;
+}
+.container {
+    margin: 60px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box hr{
+    height: 4px;
+    background-color: black;
+}
+
+
+p {
+    font-size: 2rem;
+    color: antiquewhite;
+}
+
+ul {
+    margin-left: 100px;
+}
+
+ul li a {
+    font-size: 1.3rem;
+}
+
+img {
+    height: 300px;
+    width: 300px;
+    margin: 20px;
+    border-radius: 10px;
+    border: 2px solid antiquewhite;
+}
+
+.wrapper{
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.285);
+    border: 2px solid transparent;
+    border-radius: 10px;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+.wrapper:hover{
+    background-color: rgba(0, 0, 0, 0.812);
+}

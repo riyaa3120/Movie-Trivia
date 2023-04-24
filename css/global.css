@@ -1,0 +1,122 @@
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/* Navbar CSS */
+.navbar {
+    background-color: black;
+    padding: 5px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+}
+
+.heading-primary {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.heading-secondary {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 10px 10px 10px 0px;
+    padding-left: 350px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+#centerI {
+    height: 200px;
+    width: 200px;
+    margin-left: 700px;
+}
+
+.center input {
+    margin-top: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+span {
+    color: palevioletred
+}
+
+.black {
+    color: black;
+}
+
+.yellow {
+    color: violet;
+}
+
+.transparent {
+    background-color: transparent;
+    width: 50%;
+    color: white;
+}
+
+.blue {
+    color: blue;
+}
+
+.red {
+    color: wheat;
+}
+
+.white {
+    color: white;
+}
+
+.submit-section input {
+    margin-right: 70px;
+}
+
+.btn {
+    background-color: black;
+    color: white;
+    padding: 10px 43px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    cursor: pointer;
+    transition: all 0.5s ease;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.btn:hover {
+    background-color: white;
+    color: black;
+    border-color: black;
+}
+
+.home {
+    margin-top: 200px;
+}
+
+.home p {
+    margin-top: 100px;
+    margin-left: 100px;
+    font-size: 30px;
+}
+
+body {
+    background-image: url('https://wallpaperaccess.com/full/5696663.jpg');
+}
+
+.dead {
+    color: white;
+    margin-top: 300px;
+    font-size: 50px;
+}
