@@ -1,5 +1,5 @@
 document.getElementById("play-btn").onclick = function () {
-    location.href = "FirstClue.html";
+    location.href = "firstClue.html";
 };
 
 setInterval((checkCurrentLoggedInUser = () => {
